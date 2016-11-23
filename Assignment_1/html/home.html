@@ -1,120 +1,114 @@
 <!DOCTYPE HTML>
 <HTML>
-<HEAD>
+  <HEAD>
+    <!-- This contains all the css stylesheet import-->
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/text.css" type="text/css">
+    <link rel="stylesheet" href="../css/960_12_col.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Abel|Baloo+Bhaina|Nunito|Ubuntu|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="../css/reset.css" type="text/css">
-<link rel="stylesheet" href="../css/text.css" type="text/css">
-<link rel="stylesheet" href="../css/960_12_col.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Abel|Baloo+Bhaina|Nunito|Ubuntu|Montserrat" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css" type="text/css">
-<link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+  </HEAD>
+  <!--This is body which will be displayed in view-port area of browser -->
+  <BODY>
+    <div class="main container_12">
+      <header >
+        <!-- Following is Main Header responsible for display of navigation bar, header image and heading
+             Header image can be clicked, navigation menu can be clicked on and when pointer hovers over, it
+             changes its color
+      -->
+        <div class="mainHeader">
+          <a href="#" ><img src="../img/duck.svg" alt="YouKnowWhatThisIs!" id="logo"/></a>
+          <nav>
+            <ul class="navBar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Login</a></li><BR><BR><BR>
+              <h1>        DuckDuckGo! - The search engine that doesn't track you.</h1><BR>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-<meta charset="utf-8">
-</HEAD>
-<BODY>
-<div class="main container_12">
-<header >
- <div class="mainHeader">
-    <a href="#" ><img src="../img/duck.svg" alt="YouKnowWhatThisIs!" id="logo"/></a>
-    <nav>
-    <ul class="navBar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li><BR><BR><BR>
-        <h1>        The search engine that doesn't track you.</h1><BR>
-    </ul>
-  </nav>
-  </div>
-</header>
-
-<section class="hero">
-  <h1>Google Tracks You. We Don’t.</h1>
+    <!-- This is hero element -->
+    <section class="hero">
+      <h1>Google Tracks You. We Don’t.</h1>
         <p>At other search engines, when you do a search and then click on a link, your search terms are sent to that site you clicked on (in the HTTP referrer header). We call this sharing of personal information "search leakage."
 
-For example, when you search for something private, you are sharing that private search not only with your search engine, but also with all the sites that you clicked on (for that search).
+           For example, when you search for something private, you are sharing that private search not only with your search engine, but also with all the sites that you clicked on (for that search).
 
-In addition, when you visit any site, your computer automatically sends information about it to that site (including your User agent and IP address). </p>
+           In addition, when you visit any site, your computer automatically sends information about it to that site (including your User agent and IP address). </p>
         <p><a href="https://duckduckgo.com/about" class="button" target="_blank">Find more &raquo;</a></p>
-</section>
-<section>
-  <section class="threeColView container_12">
-    <div id="col1" class="column grid_4">
-      <a href="#" ><img src="../img/col1.jpg" alt="Great Results" class="colImage grid_4"/></a>
-      <div class="colContent">
-        <header><h4>Great Results</h4></header>
-        <article><p class="mainDesc">Join the millions who are choosing a better search experience.</p>
-        <p class="desc">DuckDuckGo has everything you expect a search engine to have, including images, news and places, all while respecting your privacy. Great results without tracking you. That's DuckDuckGo in a nutshell.</p>
-        </article>
+   </section>
+
+   <!-- Below section takes care of the three column view
+        It makes use of container_12 and grid_4
+        Images when hovered over changes their width and texts when hovered upon
+        chnage font-weight
+    -->
+   <section>
+     <section class="threeColView container_12">
+       <div id="col1" class="column grid_4">
+         <a href="#" ><img src="../img/col1.jpg" alt="Great Results" class="colImage grid_4"/></a>
+           <div class="colContent">
+             <header><h4>Great Results</h4></header>
+               <article><p class="mainDesc">Join the millions who are choosing a better search experience.</p>
+                 <p class="desc">DuckDuckGo has everything you expect a search engine to have, including images, news and places, all while respecting your privacy. Great results without tracking you. That's DuckDuckGo in a nutshell.</p>
+               </article>
+          </div>
       </div>
-    </div>
-    <div id="col2" class="column grid_4">
-      <a href="#" ><img src="../img/col2.jpg" alt="Instant Answers" class="colImage grid_4"/></a>
-      <div class="colContent">
-        <header><h4>Instant Answers</h4></header>
-        <article><p class="mainDesc">Instant Answers for every situation. Music, weather, recipes and more.</p>
-        <p class="desc">Instant Answers help you find what you're looking for in fewer clicks. Everything from a stopwatch for your workout to finding movies with Chuck Norris can be found without leaving your search engine! You can even develop your own.</p>
-        </article>
-      </div>
-    </div>
-    <div id="col3" class="column grid_4">
-      <a href="#" ><img src="../img/col3.jpg" alt="Customization" class="colImage grid_4"/></a>
-      <div class="colContent">
-        <header><h4>Customization</h4></header>
-        <article><p class="mainDesc">Fine tune your search experience just the way you like it.</p>
-        <p class="desc">You can change nearly everything about DuckDuckGo, including the look and feel. For example, boost results for your region, try a different theme, or adjust the displayed language.</p>
-        </article>
+      <div id="col2" class="column grid_4">
+        <a href="#" ><img src="../img/col2.jpg" alt="Instant Answers" class="colImage grid_4"/></a>
+        <div class="colContent">
+          <header><h4>Instant Answers</h4></header>
+            <article><p class="mainDesc">Instant Answers for every situation. Music, weather, recipes and more.</p>
+              <p class="desc">Instant Answers help you find what you're looking for in fewer clicks. Everything from a stopwatch for your workout to finding movies with Chuck Norris can be found without leaving your search engine! You can even develop your own.</p>
+            </article>
+       </div>
+     </div>
+     <div id="col3" class="column grid_4">
+       <a href="#" ><img src="../img/col3.jpg" alt="Customization" class="colImage grid_4"/></a>
+       <div class="colContent">
+         <header><h4>Customization</h4></header>
+         <article><p class="mainDesc">Fine tune your search experience just the way you like it.</p>
+           <p class="desc">You can change nearly everything about DuckDuckGo, including the look and feel. For example, boost results for your region, try a different theme, or adjust the displayed language.</p>
+         </article>
       </div>
     </div>
   </section>
-  <!--
-<form action="" method="post">
-    <BR>
-    <label for="name">Enter Your Name: </label>
-    <input id="name" name="name"/>
-    <input type="submit" value="Go"/>
-</form>
-<article class="article"><a href="#">
-<img src="../img/duck1.png" alt="Hello"/></a>
-<div class="preview">
-<ul>
-    <li>Add to</li>
-    <li>Web </li>
-</ul>
-<div class="bodyTxt">
-    <p>DuckDuckGo (DDG) is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results.[2] DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term.[4] DuckDuckGo emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing, and Yummly.</p>
-</div>
-</div>
-</article>-->
+
 <HR>
+  <!-- Following helps in realising the goal of two sections and right section having three rows
+        Text when hovered on changes its background color
+-->
 <div class="container_12" id="twoSection">
-  <section class="grid_6">
-    <img src="../img/bang.png" alt="DuckDuckGo Bangs!" id="bangs" class="grid_6"/>
+  <h2 class="headingBangs">Bangs allow you to search on thousands of sites, directly.</h2>
+    <section class="grid_6">
+      <img src="../img/bang.png" alt="DuckDuckGo Bangs!" id="bangs" class="grid_6"/>
 
-  </section >
-<aside class="grid_6">
-  <div class="rows" id="row1"><h2>Bangs allow you to search on thousands of sites, directly.</h2></div>
-  <div class="rows" id="row1"><p class="content">A search for !amazon shoes will take you right to an Amazon search for shoes on Amazon.com. Try !a shoes or !ebay wallet. There are thousands of !bangs and you can even submit your own.</p></div>
-  <div class="rows" id="row1"><p class="content">With our !bang autocomplete, it's even easier than ever to search directly on your favourite sites. Try it now!</p></div>
-</aside>
+   </section >
+   <aside class="grid_6">
+     <div class="rows" id="row1"><p class="content">While its main draw is privacy, DuckDuckGo has another killer feature you may not have heard of. In fact, it should cause you to consider ditching your existing search engine for DuckDuckGo — yes, even Google. I’m talking about bangs.</p></div>
+     <div class="rows" id="row1"><p class="content">A search for !amazon shoes will take you right to an Amazon search for shoes on Amazon.com. Try !a shoes or !ebay wallet. There are thousands of !bangs and you can even submit your own.</p></div>
+     <div class="rows" id="row1"><p class="content">With our !bang autocomplete, it's even easier than ever to search directly on your favourite sites. Try it now!</p></div>
+  </aside>
 </div>
+<!-- This is footer which uses fabulous font icon pack -->
 <footer>
-  <ul>
-      <li><a href="#"><i class="fa fa-info fa-2x" aria-hidden="true"></i>About</a>
-</li>
-      <li><a href="#"><i class="fa fa-users fa-2x" aria-hidden="true"></i>Who Are We</a>
-</li>
-      <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> Instagram</a>
-</li>
-      <li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i> Facebook</a></li>
-      <li><a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github</a>
-</li>
-      <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> Twitter</a>
-</li>
+   <ul>
+       <li><a href="#"><i class="fa fa-info fa-2x" aria-hidden="true"></i> About</a></li>
+       <li><a href="#"><i class="fa fa-users fa-2x" aria-hidden="true"></i> Who Are We</a></li>
+       <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> Instagram</a></li>
+       <li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i> Facebook</a></li>
+       <li><a href="#"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github</a></li>
+       <li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> Twitter</a></li>
 
-  </ul>
-</footer>
+   </ul>
+ </footer>
 </div>
 </BODY>
 </HTML>

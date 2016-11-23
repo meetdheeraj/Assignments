@@ -1,56 +1,22 @@
 
 body{
+  /* This would be default font style for all the text on the webpage if not explicitly stated otherwise*/
   font-family: 'Ubuntu', sans-serif;
 }
+
 a{
   color:#ffffff;
 
 }
 
-/*
-body{
-
-    padding-left: 10px;
-    padding-right: 10px;
-    margin:auto;
-
-    background-color: #eaeaed;
-}
-
-article{
-    margin-top: 20px;
-}
-article img{
-    float:left;
-    margin-right: 30px;
-}
-
-
-.navBar{
-    float: auto;
-    background-color: #33cc33;
-    color:black;
-}
-.navBar li{
-    border-left: 2px solid #eaeaed;
-    padding-left: 4px;
-    font-weight:normal;
-
-}
-.preview{
-    float:right;
-    width:500px;
-}
-
-
-
-*/
 article{
   font-family: 'Abel', sans-serif;
 }
+
 label{
     cursor: pointer;
 }
+
 #logo{
     height:150px;
     width:100px;
@@ -67,7 +33,7 @@ li{
 ul a{
     text-decoration: none;
 }
-ul a:hover{
+.mainHeader ul a:hover{
     text-decoration: underline;
     background: #ffb380;
 
@@ -75,6 +41,11 @@ ul a:hover{
 .colImage:hover{
 
   width:90%;
+  background-color: #ffb380;
+}
+.colContent:hover{
+
+  font-weight: bold;
 }
 
 .navBar{
@@ -155,11 +126,47 @@ h4{
   padding-top: 70px;
 }
 footer{
-  height:80px;
-  background: red;
+  height:40px;
+  background: #434a50;
   border-top: 50px;
   padding-top: 15px;
 }
 footer ul li{
   border-top: 3px;
 }
+.headingBangs{
+  background-color: #bd4b2b;
+}
+.content{
+  font-family: 'Raleway', sans-serif;
+}
+.content:hover{
+  font-variant: small-caps;
+  background-color: #ffb380;
+
+}
+/*
+.tooltip {
+    position: relative;
+
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+*/
