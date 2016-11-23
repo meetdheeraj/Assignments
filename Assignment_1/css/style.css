@@ -1,0 +1,53 @@
+html{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    width:960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:auto;
+
+    background-color: #eaeaed;
+}
+article{
+    margin-top: 20px;
+}
+article img{
+    float:left;
+    margin-right: 30px;
+}
+
+.navBar{
+    float: auto;
+    background-color: #33cc33;
+    color:black;
+}
+.navBar li{
+    border-left: 2px solid #eaeaed;
+    padding-left: 4px;
+    font-weight:normal;
+
+}
+.preview{
+    float:right;
+    width:500px;
+}
+
+#logo{
+    height:150px;
+    width:100px;
+    float:left;
+}
+li{
+    display:inline;
+    padding-right: 10px;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+label{
+    cursor: pointer;
+}
