@@ -1,14 +1,22 @@
-html{
-    font-family: 'Nunito', sans-serif;
-}
+
 body{
-    width:960px;
+  font-family: 'Ubuntu', sans-serif;
+}
+a{
+  color:#ffffff;
+
+}
+
+/*
+body{
+
     padding-left: 10px;
     padding-right: 10px;
     margin:auto;
 
     background-color: #eaeaed;
 }
+
 article{
     margin-top: 20px;
 }
@@ -16,6 +24,7 @@ article img{
     float:left;
     margin-right: 30px;
 }
+
 
 .navBar{
     float: auto;
@@ -33,21 +42,124 @@ article img{
     width:500px;
 }
 
+
+
+*/
+article{
+  font-family: 'Abel', sans-serif;
+}
+label{
+    cursor: pointer;
+}
 #logo{
     height:150px;
     width:100px;
     float:left;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 li{
     display:inline;
     padding-right: 10px;
+    padding-bottom:  2px ;
+    padding-top: 6px;
 }
 ul a{
     text-decoration: none;
 }
 ul a:hover{
     text-decoration: underline;
+    background: #ffb380;
+
 }
-label{
-    cursor: pointer;
+.colImage:hover{
+
+  width:90%;
+}
+
+.navBar{
+    float: auto;
+    background-color: #ff6600;
+  /*  background:#bd4b2b;*/
+
+}
+.navBar li{
+    border-left: 2px solid #eaeaed;
+    padding-left: 4px;
+    font-weight:normal;
+
+}
+.preview{
+    float:right;
+    width:500px;
+}
+.colImage{
+    height:300px;
+    width:350px;
+    padding-bottom: 5px;
+}
+.hero{
+    padding: 60px;
+    margin-top: 180px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+.mainHeader{
+  position:fixed;
+  height:200px;
+  width:960px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.mainDesc{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+h4{
+  padding-top: 5px;
+}
+.hero h1{
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.grid_6{
+  float: left;
+}
+.rows{
+  height:100px;
+  padding-left: 30px;
+  border-bottom: thick dotted #ff0000;
+
+}
+#twoSection{
+  padding-bottom: 50px;
+}
+#row1{
+
+  padding-top: 70px;
+}
+footer{
+  height:80px;
+  background: red;
+  border-top: 50px;
+  padding-top: 15px;
+}
+footer ul li{
+  border-top: 3px;
 }
