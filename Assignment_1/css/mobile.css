@@ -1,0 +1,39 @@
+/*
+
+img{
+width:100%;
+}
+
+.w3-third{
+width:45%;
+float:left;
+margin-right:5%;
+min-height: 100px;
+overflow: hidden;
+background:none;
+}
+
+#third{
+clear:both;
+float:none;
+width:auto;
+padding:20px 20 0 0;
+
+}
+
+@media screen and (max-width:500px){
+.w3-third{
+clear:both;
+float:none;
+width:auto;
+padding:20px 0 0 0;
+}
+
+.tab, .tabcontent{
+display:none;
+}
+*/
+.main,.container_12,.mainHeader,.hero,p,.threeColView,.container_12,.column,.grid_4,.colImage{
+    clear:both;
+    width:auto;
+}
